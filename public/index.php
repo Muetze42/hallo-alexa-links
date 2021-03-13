@@ -30,7 +30,7 @@
 </div>
 <footer class="w-full text-center p-4 ">
 <!--    <a href="https://hallo-alexa.de/" target="_blank">-->
-        <img src="/img/logo-base-500px.png" alt="log" class="object-contain mx-auto mt-4">
+        <img src="/img/logo-base-500px.png" alt="log" class="object-contain mx-auto mt-4" width="500" height="246">
 <!--    </a>-->
 </footer>
 </body>
