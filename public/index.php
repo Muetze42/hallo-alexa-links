@@ -19,7 +19,7 @@
 
     foreach ($items as $item) {
         ?>
-        <a href="<?= $item['link'] ?>" class="custom-link focus:outline-none text-lg text-gray-100 py-4 px-5 rounded-xl border border-gray-100 hover:bg-purple-900 block w-full text-center" style="margin-bottom: 1rem" target="_blank" rel="noopener">
+        <a href="<?= $item['link'] ?>" class="custom-link focus:outline-none text-lg text-gray-100 py-4 px-5 rounded-xl border border-gray-100 hover:bg-purple-900 block w-full text-center" target="_blank" rel="noopener">
             <i class="fab <?= $item['icon'] ?>"></i>
             <?= $item['text'] ?>
         </a>
