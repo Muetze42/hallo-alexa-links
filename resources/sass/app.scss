@@ -1,0 +1,24 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+html {
+    height: 100%;
+    background-attachment: fixed;
+    background-color: #923cb5;
+    background-image: linear-gradient(180deg, #7e359c 0%, #3e1a57 74%);
+}
+
+$fa-font-display: swap;
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+.custom-link {
+    margin-bottom: 1rem;
+
+    &:last-of-type {
+        margin-bottom: 0 !important;
+    }
+}
